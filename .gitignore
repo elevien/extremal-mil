@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# Generated data and figures
+notebooks/*_data/
+figures/*
+!figures/.gitkeep

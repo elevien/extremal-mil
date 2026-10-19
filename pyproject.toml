@@ -1,0 +1,23 @@
+[project]
+name = "extremal-mil"
+version = "0.1.0"
+description = "Code to reproduce the figures of 'Learning Through Freezing Phase Transitions in an Extremal Regression Problem'"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "jupyter",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
